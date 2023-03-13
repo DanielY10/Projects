@@ -1,0 +1,172 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.hero {
+	background-color: #f5f5f5;
+	padding: 2rem;
+	text-align: center;
+}
+
+.hero h2 {
+	margin-top: 0;
+}
+
+.button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	margin-top: 1rem;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #444;
+}
+
+.latest-news {
+	margin-top: 2rem;
+}
+
+.latest-news ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.latest-news li {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1rem;
+}
+
+.latest-news h3 {
+	margin-top: 0;
+}
+
+.latest-news p {
+	margin: 0;
+}
+
+.latest-news a {
+	color: #333;
+	text-decoration: none;
+}
+
+.latest-news .button:hover,
+.latest-news .button:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.latest-news .button:hover span,
+.latest-news .button:focus span {
+	color: #fff;
+	text-decoration: none;
+}
+
+.latest-news .button span {
+	color: #333;
+}
+
+.upcoming-events {
+	margin-top: 2rem;
+}
+
+.upcoming-events ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.upcoming-events li {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1rem;
+}
+
+.upcoming-events h3 {
+	margin-top: 0;
+}
+
+.upcoming-events p {
+	margin: 0;
+}
+
+.upcoming-events .date {
+	color: #999;
+}
+
+.upcoming-events a {
+	color: #333;
+	text-decoration: none;
+}
+
+.upcoming-events .button:hover,
+.upcoming-events .button:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.upcoming-events .button:hover span,
+.upcoming-events .button:focus span {
+	color: #fff;
+	text-decoration: none;
+}
+
+.upcoming-events .button span {
+	color: #333;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
